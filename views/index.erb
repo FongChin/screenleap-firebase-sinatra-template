@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A simple static page</title>
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+	<link rel="stylesheet" href="stylesheets/app.css" />
+	<script type="text/javascript" src="javascripts/jquery1.7.1.js"></script>
+	<script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+</head>
+<body>
+  <button class="btn" id="goToRoom" >Create a room</button>
+	
+  <script type="text/javascript">
+    $("#goToRoom").click(function(){
+        d = new Date;
+        timestamp = d.getTime();
+        window.location = "/" + timestamp;
+    });
+  </script>
+	
+</body>
+</html>
