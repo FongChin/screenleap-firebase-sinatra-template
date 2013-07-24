@@ -1,5 +1,9 @@
+# Sinatra Template for Screenleap and Firebase
+
+```
 to run:
 shotgun app.rb
+```
 
 heroku:
 heroku create <appName>
