@@ -1,16 +1,19 @@
 # Sinatra Template for Screenleap and Firebase
 
+### To run the app
 ```
-to run:
 shotgun app.rb
 ```
 
-heroku:
-heroku create <appName>
+### To compile coffeescript
+```
+coffee -wc public/javascripts/ public/javascripts/
+```
 
-Bootstrap:
-	1) Bootstrap.min.css, Bootstrap.min.js
-	2) Bootstrap icons: Changed min to correct path, copy icons to images folder
+### Resources
+* Screenleap API v2 Docs for extension: <https://www.screenleap.com/api/v2/presenter#presenter-browser-extension>
+* Firebase: <http://www.firebase.com>
+* Read step-by-step tutorial on this template: <http://fongchin.com/tutorial-on-screenleap-and-firebase/>
 
-Before Production:
-  1) Compile all coffeescript and sass files
+### To-Do-list
+* make the template compatible with Firefox
