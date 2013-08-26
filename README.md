@@ -16,4 +16,5 @@ coffee -wc public/javascripts/ public/javascripts/
 * Read step-by-step tutorial on this template: <http://fongchin.com/tutorial-on-screenleap-and-firebase/>
 
 ### To-Do-list
-* make the template compatible with Firefox
+- [ ] make the template compatible with Firefox
+- [ ] Screenleap API v2 was updated during the weekend of August 17. The current version of this project needs to be modified according to the new update.
